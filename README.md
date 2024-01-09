@@ -1,4 +1,4 @@
-# Project-7
+# Project-7-Analog-Clock
 
 # Author - Partha Kapri
 <br>
