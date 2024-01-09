@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-color: hsl(220deg 100% 80%);
+}
+
+.clock{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    color: red;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+.clock ul li{
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    transform: rotate(calc(30deg * var(--a)));
+    inset: 5px;
+}
+
+.clock ul li span{
+    transform: rotate(calc(-30deg * var(--a)));
+    display: inline-block;
+}
+
+.clock::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
+
+.clock_line{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.clock_line span{
+    width: 5px;
+    height: var(--h);
+    background-color: var(--bac);
+    position: absolute;
+    border-radius: 5px;
+}
