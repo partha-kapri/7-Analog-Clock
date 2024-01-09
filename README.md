@@ -4,4 +4,4 @@
 <br>
 # Git Repository No. 7 #
 <br>
-# This is a "" Web-Development project using HTML, CSS & JavaScript #
+# This is a "Analog Clock" Web-Development project using HTML, CSS & JavaScript #
